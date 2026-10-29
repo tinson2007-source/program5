@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>student attendance tracker</title>
+        <link rel = "stylesheet" href="style.css">
+    </head>
+    <body>
+            <h1>student attendance tracker</h1>
+        <div class = "container">
+            <input id = "name" placeholder="enter student name">
+            <select id = "status">
+                <option value = "present">present</option>
+                     <option value = "absent">absent</option>
+            </select>
+            <button onclick ="markattendance()">mark attendance</button>
+            <h2>attendance</h2>
+            <div id = "list"></div>
+            <p id = "count"></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
